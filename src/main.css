@@ -1,0 +1,8 @@
+/* Remove grid layout and use flexbox or block layout */
+#app {
+    display: flex; /* Or 'block' if you want a simple block layout */
+    flex-direction: column; /* Stack children vertically; change to 'row' if needed */
+    padding: 0 2rem; /* Maintain padding if needed */
+    justify-content: center;
+    padding-top: 2rem;
+}
